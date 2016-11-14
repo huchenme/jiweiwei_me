@@ -2360,9 +2360,9 @@ function-bind@^1.0.2:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.0.tgz#16176714c801798e4e8f2cf7f7529467bb4a5771"
 
-gatsby@^0.12.6:
-  version "0.12.12"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-0.12.12.tgz#414eaea23943b4539f04cd46cfa6d08632bb3c0c"
+gatsby@^0.12.19:
+  version "0.12.19"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-0.12.19.tgz#beafc88c58b065baca81c7439173e854c0edc5cb"
   dependencies:
     async "^1.2.1"
     babel-core "^6.13.2"
@@ -2849,6 +2849,10 @@ heavy@3.x.x:
 highlight.js@^9.6.0:
   version "9.7.0"
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.7.0.tgz#e7a926bf3079c65b2ae50314878e456a009b4aac"
+
+highlight.js@^9.8.0:
+  version "9.8.0"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.8.0.tgz#38eeef40cd45eaddbec8c9e5238fb7a783a3b685"
 
 history@^2.0.2, history@^2.1.2:
   version "2.1.2"
@@ -3360,9 +3364,16 @@ js-tokens@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-2.0.0.tgz#79903f5563ee778cc1162e6dcf1a0027c97f9cb5"
 
-js-yaml@^3.4.6, js-yaml@^3.5.2, js-yaml@^3.6.0, js-yaml@~3.6.1:
+js-yaml@^3.4.6, js-yaml@^3.5.2, js-yaml@~3.6.1:
   version "3.6.1"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.6.1.tgz#6e5fe67d8b205ce4d22fad05b7781e8dadcc4b30"
+  dependencies:
+    argparse "^1.0.7"
+    esprima "^2.6.0"
+
+js-yaml@^3.7.0:
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.7.0.tgz#5c967ddd837a9bfdca5f2de84253abe8a1c03b80"
   dependencies:
     argparse "^1.0.7"
     esprima "^2.6.0"
@@ -5192,15 +5203,15 @@ react-headroom@^2.1.2:
     raf "^3.2.0"
     react-addons-pure-render-mixin "^0.14||^15.2.0"
 
-react-helmet@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/react-helmet/-/react-helmet-3.1.0.tgz#63486194682f33004826f3687dc49a138b557050"
+react-helmet@^3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/react-helmet/-/react-helmet-3.2.2.tgz#1fc4646cbc5d26246ab45d5a84b504ed639810e6"
   dependencies:
     deep-equal "1.0.1"
     object-assign "^4.0.1"
     react-side-effect "1.0.2"
     shallowequal "0.2.2"
-    warning "2.1.0"
+    warning "3.0.0"
 
 react-hot-api@^0.4.5:
   version "0.4.7"
@@ -5269,9 +5280,9 @@ react-transform-hmr@^1.0.3:
     global "^4.3.0"
     react-proxy "^1.1.7"
 
-react-typography@^0.12.0:
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/react-typography/-/react-typography-0.12.0.tgz#f32d5f006ec4f6553dea53f1a4a9e1fd83566048"
+react-typography@^0.15.0:
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/react-typography/-/react-typography-0.15.0.tgz#0c7680bcbb12a681950c2187df66c43aa4b02034"
 
 react@^15.3.0:
   version "15.3.2"
@@ -6142,20 +6153,20 @@ typedarray@~0.0.5:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
-typography-normalize@^0.12.0:
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/typography-normalize/-/typography-normalize-0.12.0.tgz#36995e85d20d7d5ef31924aa6f3e9adda3ba519f"
+typography-normalize@^0.14.0:
+  version "0.14.0"
+  resolved "https://registry.yarnpkg.com/typography-normalize/-/typography-normalize-0.14.0.tgz#1d77c1fe2aaf4a51b3673c4c85c85a65a2d4b573"
 
-typography-plugin-code@^0.13.0:
-  version "0.13.3"
-  resolved "https://registry.yarnpkg.com/typography-plugin-code/-/typography-plugin-code-0.13.3.tgz#0af528fe7890d5ae6b10089f0d5803c42c736ccc"
+typography-plugin-code@^0.15.0:
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/typography-plugin-code/-/typography-plugin-code-0.15.0.tgz#e1691e3b3fa6d3d99a8d21004bd56b73183a6fe7"
   dependencies:
     gray-percentage "^2.0.0"
     lodash "^4.13.1"
 
-typography@^0.13.0:
-  version "0.13.3"
-  resolved "https://registry.yarnpkg.com/typography/-/typography-0.13.3.tgz#38b9ea0bf4682c02421726d677ed21e5156bfd9e"
+typography@^0.15.0:
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/typography/-/typography-0.15.0.tgz#4ca3d3c9ef0044f5a8e3ed9c9b752ef989341207"
   dependencies:
     compass-vertical-rhythm "^1.3.0"
     decamelize "^1.2.0"
@@ -6163,7 +6174,7 @@ typography@^0.13.0:
     lodash "^4.13.1"
     modularscale "^1.0.2"
     object-assign "^4.1.0"
-    typography-normalize "^0.12.0"
+    typography-normalize "^0.14.0"
 
 ua-parser-js@^0.7.9:
   version "0.7.10"
@@ -6393,13 +6404,13 @@ ware@^1.2.0:
   dependencies:
     wrap-fn "^0.1.0"
 
-warning@^2.0.0, warning@2.1.0:
+warning@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/warning/-/warning-2.1.0.tgz#21220d9c63afc77a8c92111e011af705ce0c6901"
   dependencies:
     loose-envify "^1.0.0"
 
-warning@^3.0.0:
+warning@^3.0.0, warning@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/warning/-/warning-3.0.0.tgz#32e5377cb572de4ab04753bdf8821c01ed605b7c"
   dependencies:
