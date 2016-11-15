@@ -38,7 +38,7 @@ module.exports = React.createClass({
                 textDecoration: 'none',
               }}
             >
-              Ji Weiwei
+              JWWJ
             </Link>
           </Container>
         </Headroom>

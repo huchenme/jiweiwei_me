@@ -16,17 +16,18 @@ export default class Index extends React.Component {
           ]}
         />
         <h1>
-          I’m Ji
+          I am Ji
         </h1>
         <h1>
-          I’m Weiwei
+          I am Weiwei
         </h1>
         <h1>
-          Ah!
+          Uh!
         </h1>
         <h1>
           Ji Weiwei
         </h1>
+        <a href="mailto:hi@jiweiwei.me">Email Me</a>
       </div>
     )
   }
